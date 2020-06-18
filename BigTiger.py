@@ -49,9 +49,9 @@ def jalan(z):
 ##### LOGO #####
 logo = """ -----------------------------•◈•
 (  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - AAHIL -OFFICAL------•◈•
-|__\~~) •||•RANA - RAJPUT---------------•◈•
-|__(-----\  •◈•------BLACK-TIGER--------•◈•
+|__(~)    •||•THE - BIGTIGERS-OFFICAL------•◈•
+|__\~~) •||•KHOKHAR-BALOUCH-KHARAL---------------•◈•
+|__(-----\  •◈•------BIGTIGERS----------•◈•
 |__~~~\ •◈•-----█-------⑦-------█------•◈•
 |__~~~\ •◈•-----█-------⑧-------█------•◈•
 |__~~~\ •◈•-----█-------⑥-------█------•◈•
@@ -80,15 +80,16 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Aahilrana4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92mBIG TIGERS HERE
+\033[1;96mWhatsapp \033[1;93m: \033[1;92m +6285202595413
+\033[1;96mFacebook  \033[1;93m: \033[1;92m kamran.nawaz.756
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/hamziusmananwar
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "exit"
+
+CorrectPassword = "exit"
 
 loop = 'true'
 while (loop == 'true'):
@@ -112,7 +113,7 @@ def login():
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
-		print logo
+		
 		print 42*"\033[1;96m="
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN WITH FACEBOOK \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
@@ -155,7 +156,7 @@ def login():
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
-		else:
+		else:   print logo
 			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email is wrong")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
